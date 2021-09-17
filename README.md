@@ -7,7 +7,7 @@ To run the app, follow the guideline below:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/00008878/web.cw2.8878.git
+git clone https://github.com/uturakulov/Mindtube.git
 ```
 
 2. Install dependencies
@@ -31,7 +31,7 @@ node app
 
 ### Application's repository on Github
 
-[link to github repo](https://github.com/00008878/web.cw2.8878.git)
+[link to github repo](https://github.com/uturakulov/Mindtube.git)
 
 ### Web URL
 
