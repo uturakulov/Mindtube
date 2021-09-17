@@ -1,0 +1,23 @@
+extends layout.pug 
+
+block content
+    h1.title-create Let's create a brilliant post! 
+
+    if error 
+        p.error= error
+
+    if success 
+        p.success success
+    
+    form.form(action="/create" method="POST")
+        label Title 
+        input(type="text" name="title") 
+
+        label Body of Your Post 
+        textarea(name="body", cols="30", rows="10") 
+
+        label Author 
+        input(type="text" name="author")
+
+
+        button Create!

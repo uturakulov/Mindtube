@@ -1,0 +1,12 @@
+extends layout.pug 
+
+block content
+    h1.posts-title All Posts 
+
+    each post in posts
+        .posts-container 
+            a.title-link(href='/posts/' + post.id)= post.title
+            p= post.body 
+            p.author-all= post.author
+            a.delete(href='/posts/' + post.id + '/delete') Delete
+            a.update(href='/update/' + post.id) Update 

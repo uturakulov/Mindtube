@@ -1,0 +1,25 @@
+{
+  "name": "web.cw2.8878",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00008878/web.cw2.8878.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/00008878/web.cw2.8878/issues"
+  },
+  "homepage": "https://github.com/00008878/web.cw2.8878#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "pug": "^3.0.2",
+    "validator": "^13.5.2"
+  }
+}
